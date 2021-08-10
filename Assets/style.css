@@ -51,8 +51,18 @@ nav .navbar{
     top: 0;
     height: 100%;
     width: 100%;
+    color: #2c3e50;
     outline: none;
     border: 2px solid #2c3e50;
     border-radius: 8px;
     padding: 0 10pc 0 40px;
 }
+.search-box a{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    font-size: 20px;
+    color: #2c3e50;
+    padding: 0 5px 0 0;
+    border-right: 2px solid #2c3e50;
+    }
