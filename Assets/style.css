@@ -4,12 +4,18 @@ width: 100%;
 background-position: center;
 }
 header nav{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    align-content: flex-end;
+    width: 50%;
+    margin-left: auto;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
 }
-nav .navbar{
+.navbar{
     width: 90%;
     display: flex;
     align-items: center;
@@ -28,16 +34,16 @@ nav .navbar{
 .navbar .menu{
     display: flex;
 }
-.navbar .menu li{
+.navbar .menu {
   list-style: none;
   margin: 0 10px;
 }
-.menu li a{
+.menu  a{
   font-size: 17px;
   color:grey;
   font-weight: 500;
 }
-.menu li a:hover{
+.menu  a:hover{
     color: #000;
 }
 .video {
